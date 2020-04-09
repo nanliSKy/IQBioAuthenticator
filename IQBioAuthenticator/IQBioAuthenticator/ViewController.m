@@ -24,15 +24,16 @@
 - (IBAction)bioAuthenticator:(UIButton *)sender {
     
 //   BOOL result = [IQBioAuthenticator.share isBiometricAuthenticationAvailable];
+    [IQBioAuthenticator.share isFaceIDAvailable];
 //
-    [IQBioAuthenticator.share authenticateUserWithBiometrics:@"验证生物特征" success:^{
+    [IQBioAuthenticator.share authenticateUserWithBiometrics:@"verify biometrices" success:^{
         NSLog(@"success");
     } failure:^(IQAuthErrors error) {
 
         NSLog(@"%i", error);
     }];
     
-//    [IQBioAuthenticator.share authenticateUserWithPasscode:@"生物特征+密码" success:^{
+//    [IQBioAuthenticator.share authenticateUserWithPasscode:@"biometrices or passCode" success:^{
 //         NSLog(@"success");
 //    } failure:^(IQAuthErrors error) {
 //        NSLog(@"%i", error);
