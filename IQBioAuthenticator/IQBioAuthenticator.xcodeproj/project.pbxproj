@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29B78003243F25D000749EBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B78002243F25D000749EBC /* AppDelegate.m */; };
+		29B78006243F25D000749EBC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B78005243F25D000749EBC /* SceneDelegate.m */; };
+		29B78009243F25D000749EBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B78008243F25D000749EBC /* ViewController.m */; };
+		29B7800C243F25D000749EBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B7800A243F25D000749EBC /* Main.storyboard */; };
+		29B7800E243F25D400749EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29B7800D243F25D400749EBC /* Assets.xcassets */; };
+		29B78011243F25D400749EBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B7800F243F25D400749EBC /* LaunchScreen.storyboard */; };
+		29B78014243F25D400749EBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B78013243F25D400749EBC /* main.m */; };
+		29B7801F243F264D00749EBC /* IQBioErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B7801E243F264D00749EBC /* IQBioErrors.m */; };
+		29B78022243F36F500749EBC /* IQBioAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B78021243F36F500749EBC /* IQBioAuthenticator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29B77FFE243F25D000749EBC /* IQBioAuthenticator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IQBioAuthenticator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B78001243F25D000749EBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29B78002243F25D000749EBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29B78004243F25D000749EBC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		29B78005243F25D000749EBC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		29B78007243F25D000749EBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29B78008243F25D000749EBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29B7800B243F25D000749EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29B7800D243F25D400749EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29B78010243F25D400749EBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29B78012243F25D400749EBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29B78013243F25D400749EBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B7801D243F264D00749EBC /* IQBioErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQBioErrors.h; sourceTree = "<group>"; };
+		29B7801E243F264D00749EBC /* IQBioErrors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IQBioErrors.m; sourceTree = "<group>"; };
+		29B78020243F36F500749EBC /* IQBioAuthenticator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IQBioAuthenticator.h; sourceTree = "<group>"; };
+		29B78021243F36F500749EBC /* IQBioAuthenticator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IQBioAuthenticator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B77FFB243F25D000749EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29B77FF5243F25D000749EBC = {
+			isa = PBXGroup;
+			children = (
+				29B78000243F25D000749EBC /* IQBioAuthenticator */,
+				29B77FFF243F25D000749EBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29B77FFF243F25D000749EBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29B77FFE243F25D000749EBC /* IQBioAuthenticator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B78000243F25D000749EBC /* IQBioAuthenticator */ = {
+			isa = PBXGroup;
+			children = (
+				29B78001243F25D000749EBC /* AppDelegate.h */,
+				29B78002243F25D000749EBC /* AppDelegate.m */,
+				29B78004243F25D000749EBC /* SceneDelegate.h */,
+				29B78005243F25D000749EBC /* SceneDelegate.m */,
+				29B78007243F25D000749EBC /* ViewController.h */,
+				29B78008243F25D000749EBC /* ViewController.m */,
+				29B7801D243F264D00749EBC /* IQBioErrors.h */,
+				29B7801E243F264D00749EBC /* IQBioErrors.m */,
+				29B78020243F36F500749EBC /* IQBioAuthenticator.h */,
+				29B78021243F36F500749EBC /* IQBioAuthenticator.m */,
+				29B7800A243F25D000749EBC /* Main.storyboard */,
+				29B7800D243F25D400749EBC /* Assets.xcassets */,
+				29B7800F243F25D400749EBC /* LaunchScreen.storyboard */,
+				29B78012243F25D400749EBC /* Info.plist */,
+				29B78013243F25D400749EBC /* main.m */,
+			);
+			path = IQBioAuthenticator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29B77FFD243F25D000749EBC /* IQBioAuthenticator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29B78017243F25D400749EBC /* Build configuration list for PBXNativeTarget "IQBioAuthenticator" */;
+			buildPhases = (
+				29B77FFA243F25D000749EBC /* Sources */,
+				29B77FFB243F25D000749EBC /* Frameworks */,
+				29B77FFC243F25D000749EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQBioAuthenticator;
+			productName = IQBioAuthenticator;
+			productReference = 29B77FFE243F25D000749EBC /* IQBioAuthenticator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B77FF6243F25D000749EBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = darchain;
+				TargetAttributes = {
+					29B77FFD243F25D000749EBC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 29B77FF9243F25D000749EBC /* Build configuration list for PBXProject "IQBioAuthenticator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29B77FF5243F25D000749EBC;
+			productRefGroup = 29B77FFF243F25D000749EBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29B77FFD243F25D000749EBC /* IQBioAuthenticator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29B77FFC243F25D000749EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B78011243F25D400749EBC /* LaunchScreen.storyboard in Resources */,
+				29B7800E243F25D400749EBC /* Assets.xcassets in Resources */,
+				29B7800C243F25D000749EBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29B77FFA243F25D000749EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B78022243F36F500749EBC /* IQBioAuthenticator.m in Sources */,
+				29B7801F243F264D00749EBC /* IQBioErrors.m in Sources */,
+				29B78009243F25D000749EBC /* ViewController.m in Sources */,
+				29B78003243F25D000749EBC /* AppDelegate.m in Sources */,
+				29B78014243F25D400749EBC /* main.m in Sources */,
+				29B78006243F25D000749EBC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29B7800A243F25D000749EBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B7800B243F25D000749EBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29B7800F243F25D400749EBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B78010243F25D400749EBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29B78015243F25D400749EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29B78016243F25D400749EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29B78018243F25D400749EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JRZ4BFGFJ;
+				INFOPLIST_FILE = IQBioAuthenticator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.darchain.IQBioAuthenticator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29B78019243F25D400749EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JRZ4BFGFJ;
+				INFOPLIST_FILE = IQBioAuthenticator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.darchain.IQBioAuthenticator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29B77FF9243F25D000749EBC /* Build configuration list for PBXProject "IQBioAuthenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B78015243F25D400749EBC /* Debug */,
+				29B78016243F25D400749EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29B78017243F25D400749EBC /* Build configuration list for PBXNativeTarget "IQBioAuthenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B78018243F25D400749EBC /* Debug */,
+				29B78019243F25D400749EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B77FF6243F25D000749EBC /* Project object */;
+}
